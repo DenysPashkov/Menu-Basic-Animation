@@ -104,10 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				848DAA79246C070A00950D54 /* AppDelegate.swift */,
-				848DAA7B246C070A00950D54 /* GameScene.sks */,
-				848DAA7D246C070A00950D54 /* Actions.sks */,
-				848DAA7F246C070A00950D54 /* GameScene.swift */,
 				848DAA81246C070A00950D54 /* GameViewController.swift */,
+				848DAAAD246C075300950D54 /* code part */,
+				848DAAAE246C078500950D54 /* sks */,
 				848DAA83246C070A00950D54 /* Main.storyboard */,
 				848DAA86246C070B00950D54 /* Assets.xcassets */,
 				848DAA88246C070B00950D54 /* LaunchScreen.storyboard */,
@@ -132,6 +131,23 @@
 				848DAAA1246C070B00950D54 /* Info.plist */,
 			);
 			path = "basic animationUITests";
+			sourceTree = "<group>";
+		};
+		848DAAAD246C075300950D54 /* code part */ = {
+			isa = PBXGroup;
+			children = (
+				848DAA7F246C070A00950D54 /* GameScene.swift */,
+			);
+			path = "code part";
+			sourceTree = "<group>";
+		};
+		848DAAAE246C078500950D54 /* sks */ = {
+			isa = PBXGroup;
+			children = (
+				848DAA7B246C070A00950D54 /* GameScene.sks */,
+				848DAA7D246C070A00950D54 /* Actions.sks */,
+			);
+			path = sks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
